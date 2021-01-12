@@ -1,11 +1,3 @@
-def ValidateItem(input_parameter):
-    try:
-        if -100 <= input_parameter <= 100:
-            return True
-    except ValueError:
-        return False
-
-
 plainText = input('Input the plaintext: ').upper()
 
 keyword = input('Input the keyword: ').upper()
